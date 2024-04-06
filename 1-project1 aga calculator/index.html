@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age caculator</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="element" class="age-form d-flex flex-column justify-content-center align-items-center vh-100">
+      <div class="layer d-flex flex-column justify-content-center align-items-center p-5 rounded-3 ">
+        <h1 class="text-uppercase color text-dark">Age Calculator</h1>
+        <form class="form-control d-flex flex-column my-4 border-5">
+          <label class="text-center h5 text-capitalize my-3 text-danger" for="dateInput">Enter you date of birth </label>
+          <input class="text-center h6 mb-4 py-2" type="date" name="date" id="dateInput">
+        </form>
+        <button class="btn btn-primary text-capitalize mb-3" id="ageBtn">get my age</button>
+        <p class="h3 text-capitalize text-success" id="writeAge">your age will appear here</p>
+      </div>
+    </div>
+
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
