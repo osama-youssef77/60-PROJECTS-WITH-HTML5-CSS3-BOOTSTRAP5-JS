@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="bg-light">
+
+    <div class="tip d-flex flex-column vh-100 justify-content-center align-items-center ">
+      <div class="layer w-50 bg-warning px-5 py-4 w-75 bg-white box-shadow ">
+
+        <div class="caption text-center">
+          <h1 class="text-uppercase ">Tip Calculator        </h1>
+          <p class="text-capitalize h5 my-3">Enter the bill amount and tip percentage to calculate the total.</p>
+        </div>
+
+        <div class="tip-form mb-3">
+          <form class="form-control d-flex flex-column w-100 mb-3 py-3">
+            <label for="amountInput" class="form-label text-capitalize h6">bill amount</label>
+            <input type="number" class="py-1 mb-3 " id="amountInput">
+            <label for="tipInput" class="form-label text-capitalize h6">tip percentage</label>
+            <input type="number" class="py-1 " id="tipInput">
+          </form>
+          <button class="btn btn-success w-100 text-capitalize" id="btnTip">calculate</button>
+        </div>
+
+        <div class="result">
+          <p class="text-capitalize h5" id="billField">total : </p>
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
